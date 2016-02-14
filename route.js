@@ -1,6 +1,6 @@
 (function() {
-  document.getElementById('top-caption').addEventListener("change", update_url);
-  document.getElementById('bottom-caption').addEventListener("change", update_url);
+  document.getElementById('top-caption').addEventListener("input", update_url);
+  document.getElementById('bottom-caption').addEventListener("input", update_url);
 
   function update_url() {
     var top = document.getElementById('top-caption');
