@@ -16,7 +16,7 @@ function update_url() {
   var top_value = encode(top_value);
   var bottom_value = encode(bottom_value);
 
-  var base_url = "http://jorgeaguirreleon.github.io/js-nope";
+  var base_url = "http://jorgeaguirreleon.github.io/js-nope/";
   base_url += "?top=" + top_value + "&bottom=" + bottom_value;
   document.getElementById('result-caption').value = base_url;
   document.getElementById('result-caption-link').href = base_url;
