@@ -15,9 +15,13 @@
     <link rel="stylesheet" media="screen" href="style.css">
   </head>
   <body>
+    <a class="ribbon" href="route.html" title="Personalizalo aquí"></a>
     <div class="content">
       <h3 class="caption" id="top-caption"></h3>
-      <video class="video" autoplay="true" loop src="video.mp4"></video>
+      <video id="video" class="video" autoplay="true" poster="poster.png" loop>
+        <source src="video.webm"></source>
+        <source src="video.mp4" type="video/mp4"></source>
+      </video>
       <h3 class="caption" id="bottom-caption"></h3>
     </div>
     <!-- Basic JS -->

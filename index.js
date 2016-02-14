@@ -11,4 +11,8 @@
   }
   document.getElementById("top-caption").innerText = top;
   document.getElementById("bottom-caption").innerText = bottom;
+  document.getElementById("video").play()
+  video.addEventListener('click',function(){
+    video.play();
+  },false);;
 })();
