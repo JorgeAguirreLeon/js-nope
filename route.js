@@ -1,11 +1,6 @@
-(function() {    
-  document.getElementById('top-caption').addEventListener("keypress", update_url);
-  document.getElementById('top-caption').addEventListener("keydown", update_url);
-  document.getElementById('top-caption').addEventListener("keyup", update_url);
-
-  document.getElementById('bottom-caption').addEventListener("keypress", update_url);
-  document.getElementById('bottom-caption').addEventListener("keydown", update_url);
-  document.getElementById('bottom-caption').addEventListener("keyup", update_url);
+(function() {
+  document.getElementById('top-caption').addEventListener("change", update_url);
+  document.getElementById('bottom-caption').addEventListener("change", update_url);
 
   function update_url() {
     var top = document.getElementById('top-caption');
