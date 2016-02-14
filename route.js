@@ -1,6 +1,6 @@
 (function() {
-  document.getElementById('top-caption').addEventListener("input", update_url);
-  document.getElementById('bottom-caption').addEventListener("input", update_url);
+  document.getElementById('top-caption').oninput = update_url;
+  document.getElementById('bottom-caption').oninput = update_url;
 
   function update_url() {
     var top = document.getElementById('top-caption');
@@ -21,4 +21,4 @@
   function encode(text) {
     return encodeURIComponent(text).replace(/'/g,"%27").replace(/"/g,"%22");
   }
-})
+})();
