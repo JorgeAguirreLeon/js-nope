@@ -1,0 +1,99 @@
+.content {
+  background: black;
+  font-family: 'Gloria Hallelujah', cursive;
+  min-height: 100vh;
+}
+
+.caption, .inline-caption {
+  color: white;
+  font-size: 6vh;
+  height: 10vh;
+  line-height: 10vh;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.inline-caption {
+  display: inline-block;
+  margin-left: 5vw;
+  width: 24vw;
+}
+
+.caption-input, .caption-result-input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  font-size: 6vh;
+  height: 10vh;
+  line-height: 10vh;
+  margin: 10vh 10vw;
+  margin-right: 0;
+  outline: none;
+  text-align: center;
+  text-transform: uppercase;
+  width: 60vw;
+}
+
+.caption-result-input {
+  font-size: 4vh;
+  text-align: left;
+  text-transform: lowercase;
+  width: 48vw;
+}
+
+.caption-result-link {
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+  height: 10vh;
+  line-height: 10vh;
+  margin-left: 4vw;
+  outline: none;
+  padding: 1.5vh 3vw;
+  transition: all .3s;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.caption-result-link:hover {
+  border: 1px solid #aaa;
+  background: white;
+  color: black;
+}
+
+.caption-result-link:active {
+  border: 1px solid #777;
+  background: #ddd;
+  color: #222;
+}
+
+.video {
+  display: block;
+  height: 79vh;
+  width: auto;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  .inline-caption {
+    display: block;
+    margin: 0;
+    width: 100%;
+  }
+  section {
+    padding-bottom: 20vh;
+  }
+  .caption-input, .caption-result-input {
+    display: block;
+    margin: 5vh auto 0 auto;
+    width: 80vw;
+  }
+}
+
+@media (min-height: 750px) {
+  .inline-caption, .caption-input {
+    font-size: 45px;
+  }
+}
