@@ -165,8 +165,8 @@
   transform: rotate(-45deg);
 }
 
-section {
-  padding-bottom: 20vh;
+.section {
+  padding-bottom: 5vh;
 }
 
 @media (max-width: 1500px) {
@@ -184,6 +184,9 @@ section {
 @media (max-width: 900px) {
   .video {
     height: 59vh;
+  }
+  .section {
+    padding-bottom: 20vh;
   }
   .caption {
     -webkit-flex-align: center;
