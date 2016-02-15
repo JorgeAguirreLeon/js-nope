@@ -159,8 +159,26 @@ section {
 }
 
 @media (max-width: 900px) {
+  .video {
+    height: 59vh;
+  }
   .ribbon {
     display: none;
+  }
+  .caption {
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 20vh;
+    line-height: 6vh;
+    -webkit-justify-content: center;
+    justify-content: center;
   }
   .inline-caption {
     display: block;
